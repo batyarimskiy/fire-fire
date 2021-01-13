@@ -1,3 +1,4 @@
+#!/bin/bash
 apt install python3
 apt install nmap
 apt install hydra
