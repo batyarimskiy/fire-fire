@@ -32,12 +32,12 @@ def hydra():
         ftp = ':21'
         ip = input('IP Сайта: '+str(ftp))
         print('Используются стандартные пароли\nИзмените файлы Log и Pass для установки собственных паролей')
-        os.system('hydra -L /data/data/com.termux/files/home/fire-fire/modules/Log.txt -P /data/data/com.termux/files/home/fire-fire/modules/Pass.txt ftp://'+str(ip))
+        os.system('hydra -L /data/data/com.termux/files/home/fire-fire/modules/log.txt -P /data/data/com.termux/files/home/fire-fire/modules/pass.txt ftp://'+str(ip))
     if sf == "2":
         ssh = ":22"
         ips = input('IP Сайта: '+str(ssh))
         print('Используются стандартные пароли\nИзмените файлы Log и Pass для установки собственных паролей')
-        os.system('hydra -L /data/data/com.termux/files/home/fire-fire/modules/Log.txt -P /data/data/com.termux/files/home/fire-fire/modules/Pass.txt ssh://'+str(ips))
+        os.system('hydra -L /data/data/com.termux/files/home/fire-fire/modules/log.txt -P /data/data/com.termux/files/home/fire-fire/modules/pass.txt ssh://'+str(ips))
 
 def main():
     os.system('clear')
@@ -58,7 +58,7 @@ def main():
         check()
     if num_menu == "6":
         Cloud()
-    if num_menu == "7":
+    if num_menu == "8":
         os.system('clear')
         sys.exit()
 main()
