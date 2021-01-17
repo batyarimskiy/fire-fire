@@ -19,7 +19,7 @@ timebanner("        ██║  ██║██████╔╝██║ ╚═
 timebanner("        ╚═╝  ╚═╝╚═════╝ ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝")
 timebanner("           AngelSecurityTeam и @batyarimskiy    ")
 
-timebanner("Введите сайт в формате HTTP или HTTPS\n [ http://www.example.com ]  [ https://www.example.com ] ")
+timebanner("   Введите сайт в формате HTTP или HTTPS\n [ http://www.example.com ]  [ https://www.example.com ] ")
 
 url = input("\nСайт: ")
 print("")
