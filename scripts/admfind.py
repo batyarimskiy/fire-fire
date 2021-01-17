@@ -283,8 +283,3 @@ for link2 in link :
 
 print ("-----------------------------------------------------------------------------------------------------------")
 
-except KeyboardInterrupt:
-
-    print('[-] AdminFind закрыт!! ')
-    quit()
-print('[-] AdminFind закрыт !! ')
